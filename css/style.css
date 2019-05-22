@@ -128,10 +128,10 @@ a:hover, a:active, a:focus {
   box-sizing: border-box;
 }
 
-.parallax-section {
-  /* background-attachment: fixed !important; */
-  /* background-size: cover !important; */
-}
+/* .parallax-section {
+  background-attachment: fixed !important;
+  background-size: cover !important;
+} */
 
 .section-title {
   margin: 0;
