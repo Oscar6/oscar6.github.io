@@ -441,7 +441,7 @@ footer p {
   Mobile Responsive styles              
 -----------------------------------------*/
 
-@media (max-width: 980px) {
+@media only screen and (max-width: 980px) {
   #home {
     height: 55vh;
   }
@@ -458,14 +458,14 @@ footer p {
 }
 
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   #home {
     height: 85vh;
   }
 }
 
 
-@media (max-width: 580px) {
+@media only screen and (max-width: 580px) {
 
   h1 {
     font-size: 29px;
@@ -485,7 +485,7 @@ footer p {
 }
 
 
-@media (max-width: 320px) {
+@media only screen and (max-width: 320px) {
   #home {
     height: 125vh;
   }
