@@ -207,7 +207,7 @@ a:hover, a:active, a:focus {
 
 #home {
   background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
-  background-size: cover;
+  /* background-size: cover; */
   background-position: center;
   display: -webkit-box;
   display: -webkit-flex;
