@@ -130,7 +130,7 @@ a:hover, a:active, a:focus {
 
 .parallax-section {
   /* background-attachment: fixed !important; */
-  background-size: cover !important;
+  /* background-size: cover !important; */
 }
 
 .section-title {
