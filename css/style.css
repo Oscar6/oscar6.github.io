@@ -444,6 +444,7 @@ footer p {
 @media (max-width: 980px) {
   #home {
     height: 55vh;
+    background-attachment: scroll;
   }
 
   .service-thumb {
@@ -454,12 +455,14 @@ footer p {
   .contact-info {
     margin-top: 22px;
   }
+
 }
 
 
 @media (max-width: 768px) {
   #home {
     height: 85vh;
+    background-attachment: scroll;
   }
 }
 
@@ -476,6 +479,7 @@ footer p {
 
   #home {
     height: 95vh;
+    background-attachment: scroll;
   }
 
   .contact-info {
@@ -487,5 +491,6 @@ footer p {
 @media (max-width: 320px) {
   #home {
     height: 125vh;
+    background-attachment: scroll;
   }
 }
