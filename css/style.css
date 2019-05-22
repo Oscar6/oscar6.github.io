@@ -63,9 +63,9 @@ p {
   background: #2b2b2b !important;
 }
 
-.white-color {
+.copyright {
   color: #ffffff;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 
@@ -186,7 +186,7 @@ a:hover, a:active, a:focus {
   margin-top: -10px;
   margin-left: -10px;
   border-radius: 50%;
-  border: 2px solid #454545;
+  border: 2px solid #000000;
   border-top-color: #ffffff;
   animation: spinner .9s linear infinite;
 }
@@ -231,6 +231,7 @@ a:hover, a:active, a:focus {
 .service-thumb {
   background: #ffffff;
   border-radius: 5px;
+  box-shadow: 8px 6px #0000002d;
   padding: 42px 22px;
   cursor: pointer;
   position: relative;
@@ -240,7 +241,7 @@ a:hover, a:active, a:focus {
 }
 
 .service-thumb:hover {
-  background: #d1d1d1;
+  background: #0000009f;
   top: -5px;
 }
 
@@ -251,6 +252,10 @@ a:hover, a:active, a:focus {
 
 .service-thumb h4 {
   padding-bottom: 5px;
+}
+
+.service-thumb:hover p {
+  color: #ffffff
 }
 
 .service-thumb .fa {
