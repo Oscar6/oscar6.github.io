@@ -231,7 +231,7 @@ a:hover, a:active, a:focus {
 .service-thumb {
   background: #ffffff;
   border-radius: 5px;
-  box-shadow: 8px 6px #0000002d;
+  box-shadow: 0 0 8px #00000078;
   padding: 42px 22px;
   cursor: pointer;
   position: relative;
